@@ -6,34 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Задание</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div id="container">
-    <div class="block">
-        <header>
-            <div class="logo">
-                <a href="index.html"><span>*Логотип*</span></a>
-            </div>
-            <div class="menu">
-                <ul>
-                    <li><a href="#">Контакты</a></li>
-                    <li><a href="#">О нас</a></li>
-                </ul>
-            </div>
+    <!-- Menu -->
+    <section class="header">
+        <div class="logo">
+            <a class="logo_img" href="index.html">*Логотип*</a>
+        </div>
+        <div class="menu">
+                <div class="menu_contacts"><a class="menu_button" href="#">Контакты</a></div>
+                <div class="menu_aboutus"><a class="menu_button" href="#">О нас</a></div>
+        </div>
+        <div class="pustota">
 
-            <div>
-                    <p class="auth"><a href="#">Вход </a></p>
-                    <p class="reg"><a href="#">Регистрация</a></p>
-            </div>
-        </header>
-    </div>
-    <div class="window">
+        </div>
+        <div class="reg">
+                <a class="reg_button" href="#">Вход</a>
+                <a class="reg_button" href="#">Регистрация</a>
+                <a class="reg_button" href="#">Username</a>
+
+        </div>
+    </section>
+    <!-- /Menu -->
+
+    <!-- Container -->
+    <section id="container">
+        <div id="navbarleft">
+            <div id="resize"></div>
+        </div>
         
-    </div>
-    <div id="bar">
-        <div id="resize"></div>
-    </div>
-</div>
+        <div id="content">
+
+        </div>
+
+        <div id="navbarright">
+
+        </div>
+    </section>
+    <!-- /Container -->
+
 
 
     <script src="js/script.js"></script>
